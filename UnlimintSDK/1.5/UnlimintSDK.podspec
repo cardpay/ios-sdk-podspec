@@ -26,10 +26,6 @@ Pod::Spec.new do |s|
     'UnlimintSDK.xcframework'
   ]
   
-  s.pod_target_xcconfig = {
-      'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'
-  }
-
   s.frameworks = 'UIKit'
   s.libraries = "z"
 
