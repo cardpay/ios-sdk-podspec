@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UnlimintSDK'
-  s.version          = '1.5.1'
+  s.version          = '1.6'
   s.summary          = 'A short description of UnlimintSDK.'
   s.homepage         = 'https://www.unlimint.com'
 
