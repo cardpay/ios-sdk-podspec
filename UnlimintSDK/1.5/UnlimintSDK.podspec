@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = [
     'UnlimintSDK.xcframework'
   ]
-
+  
   s.frameworks = 'UIKit'
   s.libraries = "z"
 
