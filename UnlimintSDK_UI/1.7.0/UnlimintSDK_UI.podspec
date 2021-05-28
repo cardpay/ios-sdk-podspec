@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.libraries = "z"
 
-  s.dependency 'Swinject', '~> 2.7.1'
+  s.dependency 'Swinject'
   s.dependency 'UnlimintSDK_Core', '~> 1.7.0'
 
 end
