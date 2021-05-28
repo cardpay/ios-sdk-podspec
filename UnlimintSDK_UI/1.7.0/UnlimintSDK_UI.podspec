@@ -30,6 +30,5 @@ Pod::Spec.new do |s|
   s.libraries = "z"
 
   s.dependency 'Swinject'
-  s.dependency 'UnlimintSDK_Core', '~> 1.7.0'
 
 end
