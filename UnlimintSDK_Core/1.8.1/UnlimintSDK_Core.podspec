@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UnlimintSDK_UI'
-  s.version          = '1.8.0'
+  s.name             = 'UnlimintSDK_Core'
+  s.version          = '1.8.1'
   s.summary          = 'A short description of UnlimintSDK.'
   s.homepage         = 'https://www.unlimint.com'
 
@@ -19,18 +19,16 @@ Pod::Spec.new do |s|
   s.swift_version = '5.3'
 
   s.source = {
-      :http => "https://github.com/cardpay/ios-sdk-podspec/releases/download/#{s.version}/UnlimintSDK_UI.zip"
+      :http => "https://github.com/cardpay/ios-sdk-podspec/releases/download/#{s.version}/UnlimintSDK_Core.zip"
   }
 
   s.vendored_frameworks = [
-    'UnlimintSDK_UI.xcframework'
+    'UnlimintSDK_Core.xcframework'
   ]
   
   s.frameworks = 'UIKit'
   s.libraries = "z"
 
-  s.dependency 'Swinject'
-  s.dependency 'UnlimintSDK_Core', '~> 1.8.0'
-  s.dependency 'MatomoTracker', '~> 7.4'
+  s.dependency 'Moya', '~> 14.0.0'
 
 end
