@@ -3,11 +3,10 @@
 ## This repo is used for Cocoapod configuration to distribute ios SDK. 
 
 ## Configuration Project 
-### UnlimintSDK (Deprecated)
-### UnlimintSDK_Core 
-### UnlimintSDK_SwiftUI
-### UnlimintSDK_UI (Deprecated)
-
+1. UnlimintSDK (Deprecated)
+2. UnlimintSDK_UI (Deprecated)
+3. UnlimintSDK_Core
+4. UnlimintSDK_SwiftUI
 
 
 
